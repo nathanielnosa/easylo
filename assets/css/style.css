@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --main-color:#50BEB5;
+    --secondary-color: #10C98F;
+}
+.intro{
+    text-align: center;
+    margin: 4rem 0;
+}
+.intro h3{
+    color: #04271c;
+    font-size: 2.3rem
+}
+.intro .line{
+    background: var(--secondary-color);
+    height: .3vh;
+    width: 8%;
+    margin: 1rem auto;
+}
+.intro p{
+    width: 50%;
+    font-size: 1rem;
+    margin: 1rem auto;
+    font-weight: bold;
+}
+
+
+.btn-primary{
+    background: var(--secondary-color) !important;
+    text-transform: capitalize;
+    padding: .6rem 3rem !important;
+}
+
+.btn-primary:focus,.btn-primary:hover{
+    border: none !important;
+    outline: none !important;
+}
+
+.navbar{
+    background: var(--main-color) !important;
+}
+
+.navbar .nav-item{
+    padding: 0 1rem;
+
+}
+
+.navbar .nav-link{
+    color: #fff;
+    font-size:1.2rem;
+}
+
+/* banner */
+/* banner */
+#banner{
+    background: url(/assets/img/banner.jpg);
+    height: 85vh;
+    background-attachment: fixed;
+}
+
+#banner .dark{
+    width: 100%;
+    height: 100%;
+    background:var(--main-color);
+    opacity: 0.8;
+    position: relative;
+}
+
+#banner .container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+}
+
+#banner .container .text-content h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#banner .text-content .line{
+    background: #fff;
+    height: .3vh;
+    width: 17%;
+}
+#banner .text-content p{
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1rem 0;
+    line-height: 40px;
+}
+
+#banner .text-content .btn{
+    border: 1px solid white;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#banner .text-content .btn:hover{
+    transition: all 1s ease;
+    background: var(--secondary-color);
+    border: none;
+}
+#banner .container  .form-content{
+    background: #fff;
+    padding: 2rem 2rem;
+    width: 70%;
+    margin: 0 auto;
+}
+#banner .container  .form-content .pp{
+    text-align: center;
+}
+#banner .container  .form-content .line{
+    background: var(--secondary-color);
+    height: .3vh;
+    width: 17%;
+    margin: 0 auto;
+}
+#banner .container  .form-content p{
+    font-weight: bold;
+    font-size: .8rem;
+}
+#banner .container  .form-content p>span{
+    color: var(--secondary-color);
+}
+
+/* solution */
+/* solution */
+#solution{
+    padding: 2.5rem 0;
+}
+#solution .card img{
+    width: 20%;
+}
+#solution .card .lead{
+    font-weight: 400;
+    margin: 1rem 0;
+}
+#solution .card h3{
+    color: #04271c;
+    margin: 1rem 0;
+    font-weight: bolder;
+    line-height: 40px;
+}
+#solution .card h3:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+/* customer */
+/* customer */
+#customer{
+    background: #E4F1ED;
+    padding: 6rem 3rem;
+}
+#customer .customer-img .imgs{
+    position: relative;
+}
+
+#customer .customer-img  .percent{
+    background: var(--secondary-color);
+    width: 15%;
+    height: 25vh;
+    position: absolute;
+    top: 270%;
+    left: 34%;
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem;
+}
+#customer .percent h2{
+    font-size: 4rem;
+    font-weight: bold;
+}
+#customer .percent p{
+    font-size: 1rem;
+}
+
+#customer .customer-text h1{
+    color: #04271c;
+    font-weight: bolder;
+    line-height: 1.6;
+}
+#customer .customer-text p{
+    font-weight: 400;
+    margin: 2rem 0;
+    line-height: 1.4;
+}
+#customer .customer-text .line{
+    background: #b8b8b8;
+    height: .3vh;
+    width: 100%;
+}
+#customer .customer-text ul{
+    color: #04271c;
+    list-style: square url(/assets/img/dot.svg) outside;
+}
+
+#customer .customer-text ul li{
+    margin: 1rem 0;
+}
+#customer .customer-text .btn{
+    border: 1px solid var(--secondary-color) ;
+    color: var(--secondary-color) ;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+#customer .customer-text .btn:hover{
+    transition: all 1s ease;
+    background: var(--secondary-color);
+    border: none;
+    color: #fff;
+}
+
+/* testimony */
+/* testimony */
+#testimony{
+    background: #04271c;
+    color: #fff;
+    padding: 5rem;
+}
+#testimony .container-width{
+    width: 70%;
+    margin: 0 auto;
+}
